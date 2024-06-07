@@ -11,8 +11,8 @@
     background: linear-gradient(135deg,rgb(75, 177, 121),rgb(16, 76, 206));
 }
 .containts{
-    width: 50%;
     
+    width: 50%;
     border-radius: 0px  30px ;
     background: #cecacaa2;
     margin: 100px auto 100px;
@@ -22,7 +22,7 @@
 
 .containts fieldset{
     height: 100%;
-    padding:10px 25px 10px 25px;
+    padding: 20px 25px 10px 25px;
     border-radius: 0px 30px ;
 }
 
