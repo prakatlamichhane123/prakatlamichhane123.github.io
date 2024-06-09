@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(135deg,rgb(75, 177, 121),rgb(16, 76, 206));
+}
+.contents{
+    width: 50%;
+    
+    border-radius: 0px  30px ;
+    background: #cecacaa2;
+    margin: 100px auto 100px;
+    padding: 20px 25px 20px 25px;
+    color: rgb(36, 23, 23);
+}
+
+.contents fieldset{
+    height: 100%;
+    padding:10px 25px 10px 25px;
+    border-radius: 0px 30px ;
+}
+
+
+.text{
+    font-size: 28px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    overflow: hidden;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    cursor: pointer;
+    background:linear-gradient(135deg,rgba(43, 43, 187, 0.767),rgba(179, 33, 179, 0.74));
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 10;
+    color: white;
+}
+button:hover{
+    background:linear-gradient(135deg,rgba(0, 0, 253, 0.582),rgba(255, 0, 255, 0.596));
+    color: rgb(79, 189, 52);
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap:15px
+}
