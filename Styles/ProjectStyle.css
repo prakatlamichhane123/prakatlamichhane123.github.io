@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;   
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.navbar{
+    display: flex;
+    
+    align-items: center;
+    background-color: rgba(21, 13, 22, 0.89);
+    height: 63px;
+    font-size: larger;
+    color:white;
+    box-shadow: 0px 10px 25px 1px rgba(29, 28, 28, 0.527);
+}
+
+.logo{
+    padding: 0px 15px ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.nav-buttons{
+    display:flex;
+    list-style-type: none;
+    
+    align-items: center;
+    padding-left: 27vw;
+    font-size: larger;
+}
+
+.nav-buttons li{
+    padding: 0px 26px 0px 0px;
+    
+}
+.nav-buttons li a{
+    color:white;
+    text-decoration: none;
+   
+}
+
+.nav-buttons li a:hover{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    
+    
+    
+    
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 63px);
+    font-weight: bold;
+    background:linear-gradient(320deg,rgba(29, 28, 28, 0.966),rgba(0, 0, 0, 0.836));
+}
+
+
+.todo-card{
+    background-color:white;
+    border-radius: 20px;
+    max-width:450px;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    color:Black;
+    box-shadow: 17px 17px 11px 5px rgba(0, 0, 0, 0.521);
+    cursor: pointer;
+
+
+}
+
+.todo-card img{
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+    border-radius: 20px;
+}
+
+
+.todo-card span{
+    padding:0px 25px 25px 25px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.tic img{
+    width: 200px;
+    height:200px;
+    padding-top:20px
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+
+
