@@ -84,6 +84,7 @@ function gameReset() {
   winner = "";
   win = false;
   boxClicks=0;
+  turnshow.style.color="#531abe"
   turnshow.innerHTML = "Turn Of X<hr>";
   winshow.innerHTML = "";
 
